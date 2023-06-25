@@ -21,7 +21,7 @@ const CarCard = ({ car }: CarCardProps) => {
     const carRent = calculateCarRent(city_mpg, year)
 
   return (
-    <div className='car-card-group'>
+    <div className='car-card group'>
         <div className='car-card__content'>
             <h2 className='car-card__content-title'>
                 {make} {model}
@@ -69,13 +69,14 @@ const CarCard = ({ car }: CarCardProps) => {
                   title='Di Più'
                   containerStyles='w-full py-[16px] rounded-full bg-primary-blue'
                   textStyles='text-white text-[14px] leading-[17px] font-bold'
-                  rightIcon="/right-arrow.svg"
-                  handleClick={() => setIsOpen(true)}
+                  rightIcon='/right-arrow.svg'
+                  handleClick={() => setIsOpen(true)}       
                 />
             </div>
         </div>
         <CardDetails isOpen={isOpen} closeModal={() => setIsOpen(false)} car={car}  />
     </div>
+    
   )
 }
 
