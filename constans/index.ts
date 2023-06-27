@@ -43,7 +43,7 @@ export const manufacturers = [
   ];
   
   export const yearsOfProduction = [
-    { title: "Year", value: "" },
+    { title: "Anno", value: "" },
     { title: "2015", value: "2015" },
     { title: "2016", value: "2016" },
     { title: "2017", value: "2017" },
@@ -57,16 +57,16 @@ export const manufacturers = [
   
   export const fuels = [
     {
-      title: "Fuel",
+      title: "Benzina",
       value: "",
     },
     {
-      title: "Gas",
-      value: "Gas",
+      title: "Metano",
+      value: "Metano",
     },
     {
-      title: "Electricity",
-      value: "Electricity",
+      title: "Elettrico",
+      value: "Elettrico",
     },
   ];
   

@@ -34,7 +34,7 @@ const CarCard = ({ car }: CarCardProps) => {
             </span>
             {carRent}
             <span className='self-end text-[14px] font-medium'>
-                /day
+                /Giorno
             </span>
         </p>
 
@@ -47,7 +47,7 @@ const CarCard = ({ car }: CarCardProps) => {
                 <div className='flex flex-col justify-center items-center gap-2'>
                     <Image src="/steering-wheel.svg" width={20} height={20} alt='steering wheel'/>
                     <p className='text-[14px]'>
-                        {transmission === 'a' ? 'Automatic' : 'Manual'} 
+                        {transmission === 'a' ? 'Automatico' : 'Manuale'} 
                     </p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2'>
