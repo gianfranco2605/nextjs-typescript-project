@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="hero">
         <div className="flex-1 pt-36 padding-x">
             <h1 className="hero__title">
-                Trova, prenota o noleggia un'auto -- in modo facile e veloce
+                TROVA, PRENOTA O NOLEGGIA UN'AUTO  IN MODO FACILE E VELOCE 
             </h1>
             <p className="hero__subtitle">Semplifica la tua esperienza di noleggio auto con il nostro semplice processo di prenotazione</p>
 
